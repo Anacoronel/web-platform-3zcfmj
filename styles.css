@@ -1,8 +1,9 @@
+
 .box {
  display: flex; 
  flex-direction: column;
  width: 90%;
- border: 2px solid rgb(29, 156, 156);
+ border: 2px solid rgb(198, 209, 209);
  padding: 20px;
   margin-bottom: 10px;
   border-radius: 15px;
@@ -10,14 +11,65 @@
  text-align: justify;
  
 }
+.encabezado {
+ 
+ text-align: left;
+  background-color:rgb(14, 103, 109);
+  color:antiquewhite;
+  font-family: Arial Arial, Helvetica, sans-serif;
+  }
+#file1{
+  padding:6px;
+  border-radius:5px;
+  background-color:white;
+  text-align: center;
+  color:black;
+  width:80px;
+    
+  }
+  #file1:hover {background-color: rgb(230, 222, 222)}
+  
+  #file1:active {
+    background-color: rgb(196, 190, 190);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+
+  .social{
+  display:flex;
+ 
+  font-size: 17px;
+  color:antiquewhite;
+  float:right;
+  background-color:rgb(14, 103, 109);
+  margin-right: 10px;
+}
+.tw{
+  font-size: 17px;
+  color:antiquewhite;
+  float:right;
+  background-color:rgb(14, 103, 109);
+  margin-right: 10px;
+}
 h1 {
-color: rgb(29, 156, 156);
+
+background: linear-gradient(rgb(29, 156, 156),rgb(25, 27, 26));
+-webkit-background-clip: text;
+color: transparent;  
 }
 p {
   color: rgb(70, 66, 66);
   }
 li {
   color: rgb(70, 66, 66);
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 0.5fr 1.5fr; 
+  list-style-image: none;
+  margin-left: 20;
 }
 .fotodeperfil {
   width: 100px;
@@ -27,13 +79,7 @@ li {
   border-radius: 50%;
    
 }
-.logouni{
-  margin-left: 30px;
-}
-.argprog {
-  width:20px;
-  height: 10px;
-}
+
 .fondo {
   width: 100%;
   border-radius: 10px 10px 10px 10px;
@@ -42,7 +88,7 @@ li {
   
 
 .btn-right {
-  font-size: 16px;
+  font-size: 18px;
   color:rgb(29, 156, 156);
   box-shadow: 0 1px #666;
   float: right;
@@ -51,7 +97,7 @@ li {
     
 }
 .btn-agregar {
-  font size: 17px;
+  font-size: 17px;
   color:rgb(29, 156, 156);
   box-shadow: 0 1px #666;
   float: right;
@@ -59,7 +105,7 @@ li {
   
 }
 .btn-borrar {
-  font size: 17px;
+  font-size: 20px;
   color:rgb(29, 156, 156);
   box-shadow: 0 1px #666;
   float: right;
